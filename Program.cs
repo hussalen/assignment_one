@@ -19,4 +19,9 @@ class Program
         }
         return sum / ints.Length;
     }
+
+    static int GetMaxFromArray(int[] ints)
+    {
+        return ints.Max();
+    }
 }
